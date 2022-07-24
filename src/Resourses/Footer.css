@@ -15,7 +15,7 @@ footer{
 
 .footer-items ul li a{
     color: white;
-    margin: 0 3rem;
+    margin: 0 4rem;
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -23,6 +23,7 @@ footer{
 #resourses-drops{
     margin: 2rem 0;
     display: flex;
+    justify-content: end;
     flex-direction: column;
 }
 
@@ -31,7 +32,7 @@ footer{
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
-    font-weight: 10;
+    font-weight: 100;
 }
 
 
@@ -50,7 +51,7 @@ footer{
     font-weight: 50;
 }
 
-.brief-about a, #resourses-drops li a:hover{
+.brief-about a:hover, #resourses-drops li a:hover{
     color: gray;
     text-decoration: none;
 }
