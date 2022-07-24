@@ -23,7 +23,6 @@ footer{
 #resourses-drops{
     margin: 2rem 0;
     display: flex;
-    justify-content: end;
     flex-direction: column;
 }
 
