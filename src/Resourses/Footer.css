@@ -1,0 +1,56 @@
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    padding: 2rem;
+}
+.footer-items ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-items ul li{
+    list-style: none;
+}
+
+.footer-items ul li a{
+    color: white;
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#resourses-drops{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#resourses-drops li a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 10;
+}
+
+
+
+.brief-about{
+    margin: auto;
+    color: white;
+    font-weight: 100;
+    align-items: center;
+    width: 75%;
+}
+
+.brief-about a{
+    text-decoration: none;
+    color: white;
+    font-weight: 50;
+}
+
+.brief-about a, #resourses-drops li a:hover{
+    color: gray;
+    text-decoration: none;
+}

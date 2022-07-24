@@ -1,0 +1,38 @@
+
+nav{
+    z-index: 999;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(50, 50, 50, 0.4);
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+#logo{
+    margin-left: 3rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.Navlist ul li a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover{
+    border-top: 5px solid black;
+}

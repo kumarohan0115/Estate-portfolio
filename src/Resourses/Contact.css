@@ -1,0 +1,49 @@
+.contact-main{
+    margin: 2rem 0;
+    position: relative;
+}
+
+.contact-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50vw;
+    height: 100%;
+    background-color: rgba(202, 202, 202, 0.6);
+
+}
+
+.overlay{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.overlay h1, .address h1, .detail h1, .contact-number h1{
+    color: rgb(23, 46, 23);
+    border-top: 5px solid rgb(23, 46, 23);
+    margin-top: 1rem 0;
+}
+
+.overlay .detail{
+    margin: 3rem 0;
+}
+
+.overlay .detail a{
+    text-decoration: none;
+    color: rgb(23, 46, 23);
+}
+
+.overlay .detail p{
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+
+.overlay img{
+    color: black;
+    margin: 1rem 0;
+}
+
+.overlay .address pre p{
+    font-weight: 500;
+}

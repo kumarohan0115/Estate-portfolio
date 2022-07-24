@@ -1,0 +1,28 @@
+.content-heading h2{
+    border-top: 5px solid black;
+    float: right;
+    color: rgb(50, 50, 50);
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+
+.info-area{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.info-area p{
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+
+.image-section img{
+    padding:2rem 0;
+    height: 500px;
+    /* margin-right: 3rem; */
+    margin-left: -1rem;
+    width: auto;
+}
