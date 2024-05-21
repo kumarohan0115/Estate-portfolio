@@ -1,6 +1,13 @@
 .contact-main{
     margin: 2rem 0;
     position: relative;
+    min-height: 500px;
+    /* background: url('https://theleonardsteinbergteam.com/wp-content/uploads/2015/06/Donna-Dotan_0058-Final-copy-2-1920x1103.jpg'); */
+}
+
+.contact-main >img{
+    width: 100%;
+    height: 100%;
 }
 
 .contact-main::before{
@@ -19,7 +26,10 @@
     left: 10%;
 }
 
-.overlay h1, .address h1, .detail h1, .contact-number h1{
+.overlay >h2 , 
+.address h2, 
+.detail h2, 
+.contact-number h2{
     color: rgb(23, 46, 23);
     border-top: 5px solid rgb(23, 46, 23);
     margin-top: 1rem 0;
@@ -42,8 +52,73 @@
 .overlay img{
     color: black;
     margin: 1rem 0;
+    height: 50px;
 }
 
-.overlay .address pre p{
+.overlay .address .address-details{
+    display: flex;
+    justify-content: space-between;
     font-weight: 500;
+}
+
+@media screen and (max-width:1500px){
+    .contact-main{
+        min-height: 800px;
+    } 
+    .contact-main>img{
+        min-height: 100vh;
+        object-fit: cover;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .contact-main::before{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .contact-main{
+        min-height: 800px;
+    } 
+    .contact-main>img{
+        min-height: 100vh;
+    }
+
+    .contact-main::before{
+        width: 100%;
+    }
+    .overlay{
+        min-height: 100vh !important;
+    }
+    .overlay > h2{
+        font-size: 2rem;
+    }
+    .overlay .detail{
+        margin: 1.5rem 0;
+    }    
+    .overlay .detail p{
+        font-size: 1rem;
+        font-weight: 350;
+    }
+
+    .overlay >h2 , 
+    .address h2, 
+    .detail h2, 
+    .contact-number h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .overlay{
+        padding: .5rem;
+        left: 2%;
+    }
+    .overlay >h2 , 
+    .address h2, 
+    .detail h2, 
+    .contact-number h2{
+        font-size: 1rem;
+    }
 }

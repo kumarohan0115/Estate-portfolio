@@ -6,10 +6,11 @@ import Container from "react-bootstrap/Container";
 
 const Content = () => {
   return (
-    <div>
+    <div className="content-section">
+      <div className="exploreBottom"></div>
       <Container fluid>
         <Row className='content-row-1'>
-          <Col className="content-heading col-lg-2 col-md-2 col-sm-12 offset-1 ">
+          <Col className="content-heading col-lg-2 col-md-2 col-sm-12 offset-lg-1 ">
             <h2>About Us</h2>
           </Col>
           <Col className="info-area col-lg-5 col-md-6 col-12">
@@ -42,7 +43,7 @@ const Content = () => {
         </Row>
 
         <Row className="content-row-2">
-          <Col className="content-heading col-lg-2 col-md-2 col-sm-12 offset-1">
+          <Col className="content-heading col-lg-2 col-md-2 col-sm-12 offset-lg-1">
             <h2>Services</h2>
           </Col>
           <Col className="info-area col-lg-9 col-md-9 col-sm-12">

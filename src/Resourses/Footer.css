@@ -1,47 +1,40 @@
-footer{
+.footer-main{
     background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     bottom: 0;
-    padding: 2rem;
+    padding: 3rem;
 }
 .footer-items ul{
+    margin-left: 0 !important;
+    padding: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .footer-items ul li{
     list-style: none;
 }
 
 .footer-items ul li a{
+    text-decoration: none;
     color: white;
     margin: 0 4rem;
     font-size: 1.5rem;
-    text-decoration: none;
 }
 
-#resourses-drops{
-    margin: 2rem 0;
-    display: flex;
-    flex-direction: column;
+.footer-items>ul>li>a:hover{
+    color: #6e6e6e;
 }
-
-#resourses-drops li a{
-    margin-top: 1rem;
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 100;
-}
-
-
 
 .brief-about{
     margin: auto;
     color: white;
     font-weight: 100;
     align-items: center;
-    width: 75%;
+    width: 60%;
 }
 
 .brief-about a{
@@ -53,4 +46,17 @@ footer{
 .brief-about a:hover, #resourses-drops li a:hover{
     color: gray;
     text-decoration: none;
+}
+
+@media screen and (max-width:992px) {
+    .footer-main{
+        flex-direction:column;
+    }
+    
+    .footer-items ul li a{
+        margin: 0;
+    }
+    .brief-about{
+        width: 100%;
+    }
 }

@@ -1,38 +1,64 @@
 
 nav{
     z-index: 999;
-    height: 120px;
+    height: 80px;
     width: 100%;
     position: absolute;
     top: 0;
     display: flex !important;
     justify-content: space-between;
     align-items: center;
-    background: rgba(50, 50, 50, 0.4);
+    background: rgba(0, 0, 0, 0.988);
+    overflow: hidden;
 }
 
 .logo{
     align-items: center;
     display: flex;
+    height: 50px;
+}
+
+.logo h2{
+    color: white;
 }
 
 #logo{
     margin-left: 3rem;
+    height: 100%;
 }
 
 nav ul{
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 .Navlist ul li a{
     margin: 0 1rem;
     text-decoration: none;
-    color:black;
+    color: white;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 nav ul li a:hover{
     border-top: 5px solid black;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        color: white;
+        height: auto;
+        padding: .5rem;
+    }
+    #logo{
+        margin: 0;
+    }
+    .logo{
+        height: 50px;
+        width: 80px;
+    }
+    .logo>h2{
+        font-size: 1.5rem;
+    }
 }

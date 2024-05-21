@@ -6,7 +6,7 @@ const InfoTiles = () => {
     <div>
       <Container fluid>
       <Row className='info-tile-row-1'>
-        <div className=' col-lg-4 col-md-4 col-sm-6'>
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards'>
           <div className="tile-container">
             <h2>Experience</h2>
             {/* <p> */}
@@ -17,8 +17,8 @@ const InfoTiles = () => {
               </ul>
             {/* </p> */}
           </div>
-        </div>
-        <div className=' col-lg-4 col-md-4 col-sm-6' >
+        </Col>
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards' >
           <div className="tile-container">
             <h2>Strategy</h2>
             {/* <p> */}
@@ -30,8 +30,8 @@ const InfoTiles = () => {
               </ul>
             {/* </p> */}
           </div>
-        </div>
-        <div className=' col-lg-4 col-md-4 col-sm-6' >
+        </Col>
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards' >
           <div className="tile-container">
             <h2>Presentation</h2>
             {/* <p> */}
@@ -42,12 +42,12 @@ const InfoTiles = () => {
               </ul>
             {/* </p> */}
           </div>
-        </div>
-      </Row>
+        </Col>
+      {/* </Row>
 
         
-      <Row className='info-tile-row-2'>
-        <Col className=' col-lg-4 col-md-4 col-sm-6' >
+      <Row className='info-tile-row-2'> */}
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards' >
           <div className="tile-container">
             <h2>Reach</h2>
             {/* <p> */}
@@ -60,7 +60,7 @@ const InfoTiles = () => {
             {/* </p> */}
           </div>
         </Col>
-        <Col className=' col-lg-4 col-md-4 col-sm-6' >
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards' >
           <div className="tile-container">
             <h2>Communication</h2>
             {/* <p> */}
@@ -72,7 +72,7 @@ const InfoTiles = () => {
             {/* </p> */}
           </div>
         </Col>
-        <Col className=' col-lg-4 col-md-4 col-sm-6' >
+        <Col className=' col-lg-4 col-md-4 col-sm-6 cards' >
           <div className="tile-container">
             <h2>Technology</h2>
             {/* <p> */}

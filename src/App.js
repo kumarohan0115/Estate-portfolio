@@ -6,7 +6,9 @@ import Footer from './Resourses/Footer'
 import Video from './Resourses/Video'
 import './App.css';
 import InfoTiles from './Resourses/InfoTiles'
+import Profile from './Resourses/Profile'
 
+import Test from './Resourses/Test'
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,9 @@ function App() {
       <Team/>
       <Contact/>
       <Footer/>
+
+      {/* <Test/> */}
+      {/* <Profile/> */}
     </div>
   );
 }

@@ -1,7 +1,11 @@
 .info-tile-row-1, .info-tile-row-2{
-    margin: 4rem 0;
-    padding: 0 1rem;
     display: flex;
+    margin: 2rem 0 ;
+}
+
+.cards{
+    min-width: 360px;
+    padding: 1rem;
 }
 
 .tile-container{
@@ -22,10 +26,29 @@
 }
 
 .tile-container ul li{
+    font-size: .8rem;
     margin: 1rem 0;
     list-style: none;
     font-weight: 500;
     color: white;
 }
 
+@media screen and (max-width:1200px) {
+    .info-tile-row-1, .info-tile-row-2{
+        gap: 1rem;
+    }
+    .cards{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .info-tile-row-1, .info-tile-row-2{
+        flex: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .info-tile-row-1, .info-tile-row-2{
+        gap: 1rem;
+    }
+}
 
